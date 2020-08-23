@@ -22,9 +22,10 @@ class Payment_model extends CI_Model {
             'email' => $user_details['email'], // client email id
             'card'  => $token_id
         ));
-
+        // // buat tes
+        // $charge = 'succeeded';
+        // disable dulu
         $charge = \Stripe\Charge::create(['customer'  => $customer->id, 'amount' => $amount_paid*100, 'currency' => get_settings('stripe_currency'), 'receipt_email' => $user_details['email']]);
-
         if($charge->status == 'succeeded'){
             return true;
         }else {

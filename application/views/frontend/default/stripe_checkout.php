@@ -12,6 +12,8 @@
 <!--required for getting the stripe token-->
         <?php
             $stripe_keys = get_settings('stripe_keys');
+            // $values = 'on';
+            // // disable dulu
             $values = json_decode($stripe_keys);
             if ($values[0]->testmode == 'on') {
                 $public_key = $values[0]->public_key;
