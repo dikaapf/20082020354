@@ -672,5 +672,13 @@
     "top_courses": "Top courses",
     "your_email": "Your email",
     "your_password": "Your password",
-    "new_to": "New to"
+    "new_to": "New to",
+    "offline_payment": "Offline payment",
+    "pending_request": "Pending request",
+    "accepted_request": "Accepted request",
+    "suspended_request": "Suspended request",
+    "course_banner": "Course banner",
+    "course_slider_thumbnail": "Course slider thumbnail",
+    "course_slider_banner": "Course slider banner",
+    "pengaturan_sertifikat": "Pengaturan sertifikat"
 }
