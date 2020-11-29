@@ -58,11 +58,11 @@
     </div>
 </section>
 
-<section class="course-carousel-area">
+<!-- <section class="course-carousel-area">
     <div class="container-lg">
         <div class="row">
             <div class="col">
-                <h2 class="course-carousel-title"><?php echo site_phrase('top_courses'); ?></h2>
+                <h2 class="course-carousel-title"><?php echo site_phrase('top_pengajar'); ?></h2>
                 <div class="course-carousel">
                     <?php $top_courses = $this->crud_model->get_top_courses()->result_array();
                     $cart_items = $this->session->userdata('cart_items');
@@ -70,7 +70,7 @@
                     <div class="course-box-wrap">
                         <a href="<?php echo site_url('home/course/'.rawurlencode(slugify($top_course['title'])).'/'.$top_course['id']); ?>" class="has-popover">
                             <div class="course-box">
-                                <!-- <div class="course-badge position best-seller">Best seller</div> -->
+                                <div class="course-badge position best-seller">Best seller</div>
                                 <div class="course-image">
                                     <img src="<?php echo $this->crud_model->get_course_thumbnail_url($top_course['id']); ?>" alt="" class="img-fluid">
                                 </div>
@@ -187,7 +187,7 @@
 </div>
 </div>
 </div>
-</section>
+</section> -->
 
 <section class="course-carousel-area">
     <div class="container-lg">

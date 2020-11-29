@@ -153,7 +153,7 @@ $status_wise_courses = $this->crud_model->get_status_wise_courses();
 			</a>
 		</li>
 
-		<!-- <li class="side-nav-item">
+		<li class="side-nav-item">
 			<a href="javascript: void(0);" class="side-nav-link <?php if ($page_name == 'addons' || $page_name == 'addon_add' || $page_name == 'available_addons'): ?> active <?php endif; ?>">
 				<i class="dripicons-graph-pie"></i>
 				<span> <?php echo get_phrase('addons'); ?> </span>
@@ -167,7 +167,7 @@ $status_wise_courses = $this->crud_model->get_status_wise_courses();
 					<a href="<?php echo site_url('admin/available_addons'); ?>"><?php echo get_phrase('available_addons'); ?></a>
 				</li>
 			</ul>
-		</li> -->
+		</li>
 
 		<li class="side-nav-item  <?php if ($page_name == 'system_settings' || $page_name == 'frontend_settings' || $page_name == 'payment_settings' || $page_name == 'smtp_settings' || $page_name == 'manage_language' || $page_name == 'about' || $page_name == 'themes' ): ?> active <?php endif; ?>">
 			<a href="javascript: void(0);" class="side-nav-link">
@@ -206,9 +206,9 @@ $status_wise_courses = $this->crud_model->get_status_wise_courses();
 				<li class = "<?php if($page_name == 'smtp_settings') echo 'active'; ?>">
 					<a href="<?php echo site_url('admin/smtp_settings'); ?>"><?php echo get_phrase('smtp_settings'); ?></a>
 				</li>
-				<!-- <li class = "<?php if($page_name == 'theme_settings') echo 'active'; ?>">
+				<li class = "<?php if($page_name == 'theme_settings') echo 'active'; ?>">
 					<a href="<?php echo site_url('admin/theme_settings'); ?>"><?php echo get_phrase('theme_settings'); ?></a>
-				</li> -->
+				</li>
 				<li class = "<?php if($page_name == 'about') echo 'active'; ?>">
 					<a href="<?php echo site_url('admin/about'); ?>"><?php echo get_phrase('about'); ?></a>
 				</li>

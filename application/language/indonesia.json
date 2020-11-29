@@ -18,7 +18,7 @@
     "find_the_right_course_for_you": "Terdapat ribuan guru yang berpengalaman dan telah lolos test kemampuan masuk kami.",
     "lifetime_access": "Waktu Flexible",
     "learn_on_your_schedule": "Bisa belajar kapan saja dan dimana saja, sesuai waktu yang diinginkan.",
-    "top_courses": "Materi Unggulan",
+    "top_pengajar": "Pengajar Unggulan",
     "last_updater": "Update Terakhir",
     "lessons": "Kategori",
     "hours": "Jam",
@@ -665,5 +665,12 @@
     "you_can_download_the_course_completion_certificate_after_completing_the_course": "You can download the course completion certificate after completing the course",
     "well_done": "Well done",
     "you_are_now_eligible_to_download_the_course_completion_certificate": "You are now eligible to download the course completion certificate",
-    "install_certificate_addon_first": "Install certificate addon first"
+    "install_certificate_addon_first": "Install certificate addon first",
+    "smtp_settings_updated_successfully": "Smtp settings updated successfully",
+    "email_duplication": "Email duplication",
+    "user_deleted_successfully": "User deleted successfully",
+    "top_courses": "Top courses",
+    "your_email": "Your email",
+    "your_password": "Your password",
+    "new_to": "New to"
 }
